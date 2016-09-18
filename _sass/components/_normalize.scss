@@ -45,6 +45,9 @@ section,
 summary {
   display: block;
 }
+article {
+  font-size: 18px;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -424,4 +427,12 @@ table {
 td,
 th {
   padding: 0;
+}
+
+
+/*
+ Custom scss
+*/
+.post-description {
+  font-size: 18px;
 }
