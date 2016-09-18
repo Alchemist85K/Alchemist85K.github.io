@@ -2,4 +2,5 @@
 echo 'jekyll local server start'
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -L )"
 cd $SCRIPTPATH/..
-bundle exec jekyll server --watch
+#bundle exec jekyll server --watch
+jekyll server --watch
